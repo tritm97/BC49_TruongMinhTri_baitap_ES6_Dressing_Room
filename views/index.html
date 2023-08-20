@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CyberLearn Dressing Room</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css" integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="text-center">
+              <img src="./../assets/images/cybersoft.png" alt="Card image" />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+                - Virtual Dressing Room
+              </h4>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+
+          <ul class="nav nav-pills mb-3 ul_flex" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn_flex active" id="pills-ao-tab" data-bs-toggle="pill" data-bs-target="#pills-ao" type="button" role="tab" aria-controls="pills-ao" aria-selected="true">Áo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn_flex" id="pills-quan-tab" data-bs-toggle="pill" data-bs-target="#pills-quan" type="button" role="tab" aria-controls="pills-quan" aria-selected="false">Quần</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn_flex" id="pills-giaydep-tab" data-bs-toggle="pill" data-bs-target="#pills-giaydep" type="button" role="tab" aria-controls="pills-giaydep" aria-selected="false">Giày dép</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn_flex" id="pills-tuixach-tab" data-bs-toggle="pill" data-bs-target="#pills-tuixach" type="button" role="tab" aria-controls="pills-tuixach" aria-selected="false">Túi xách</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn_flex" id="pills-daychuyen-tab" data-bs-toggle="pill" data-bs-target="#pills-daychuyen" type="button" role="tab" aria-controls="pills-daychuyen" aria-selected="false">Dây chuyền</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn_flex" id="pills-kieutoc-tab" data-bs-toggle="pill" data-bs-target="#pills-kieutoc" type="button" role="tab" aria-controls="pills-kieutoc" aria-selected="false">Kiểu tóc</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn_flex" id="pills-nen-tab" data-bs-toggle="pill" data-bs-target="#pills-nen" type="button" role="tab" aria-controls="pills-nen" aria-selected="false">Nền</button>
+            </li>
+          </ul>
+
+          <div class="well">
+            <!-- Tab panes -->
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-ao" role="tabpanel" aria-labelledby="pills-ao-tab" tabindex="0">
+                <div class="content">
+                  <div class="row items">
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/topcloth1_show.jpg" alt="topcloth1_show" class="img-fluid">
+                        <p>Top Cloth 1</p>
+                        <button class="btn btn-primary btn-thu-do AO" id="topcloth1">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/topcloth2_show.jpg" alt="topcloth2_show" class="img-fluid">
+                        <p>Top Cloth 2</p>
+                        <button class="btn btn-primary btn-thu-do AO" id="topcloth2">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/topcloth3_show.jpg" alt="topcloth3_show" class="img-fluid">
+                        <p>Top Cloth 3</p>
+                        <button class="btn btn-primary btn-thu-do AO" id="topcloth3">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/topcloth4_show.jpg" alt="topcloth4_show" class="img-fluid">
+                        <p>Top Cloth 4</p>
+                        <button class="btn btn-primary btn-thu-do AO" id="topcloth4">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/topcloth5_show.jpg" alt="topcloth5_show" class="img-fluid">
+                        <p>Top Cloth 5</p>
+                        <button class="btn btn-primary btn-thu-do AO" id="topcloth5">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/topcloth6_show.jpg" alt="topcloth6_show" class="img-fluid">
+                        <p>Top Cloth 6</p>
+                        <button class="btn btn-primary btn-thu-do AO" id="topcloth6">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-quan" role="tabpanel" aria-labelledby="pills-quan-tab" tabindex="0">
+                <div class="content">
+                  <div class="row items">
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/botcloth1_show.jpg" alt="botcloth1_show" class="img-fluid">
+                        <p>Bot Cloth 1</p>
+                        <button class="btn btn-primary btn-thu-do QUAN" id="botcloth1">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/botcloth2_show.jpg" alt="botcloth2_show" class="img-fluid">
+                        <p>Bot Cloth 2</p>
+                        <button class="btn btn-primary btn-thu-do QUAN" id="botcloth2">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/botcloth3_show.jpg" alt="botcloth3_show" class="img-fluid">
+                        <p>Bot Cloth 3</p>
+                        <button class="btn btn-primary btn-thu-do QUAN" id="botcloth3">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/botcloth4_show.jpg" alt="botcloth4_show" class="img-fluid">
+                        <p>Bot Cloth 4</p>
+                        <button class="btn btn-primary btn-thu-do QUAN" id="botcloth4">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/clothes/botcloth5_show.jpg" alt="botcloth5_show" class="img-fluid">
+                        <p>Bot Cloth 5</p>
+                        <button class="btn btn-primary btn-thu-do QUAN" id="botcloth5">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-giaydep" role="tabpanel" aria-labelledby="pills-giaydep-tab" tabindex="0">
+                <div class="content">
+                  <div class="row items">
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/shoes/shoes1_show.jpg" alt="" class="img-fluid">
+                        <p>Shoes 1</p>
+                        <button class="btn btn-primary btn-thu-do GIAY" id="shoes1">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/shoes/shoes2_show.jpg" alt="" class="img-fluid">
+                        <p>Shoes 2</p>
+                        <button class="btn btn-primary btn-thu-do GIAY" id="shoes2">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/shoes/shoes3_show.jpg" alt="" class="img-fluid">
+                        <p>Shoes 3</p>
+                        <button class="btn btn-primary btn-thu-do GIAY" id="shoes3">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/shoes/shoes4_show.jpg" alt="" class="img-fluid">
+                        <p>Shoes 4</p>
+                        <button class="btn btn-primary btn-thu-do GIAY" id="shoes4">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/shoes/shoes5_show.jpg" alt="" class="img-fluid">
+                        <p>Shoes 5</p>
+                        <button class="btn btn-primary btn-thu-do GIAY" id="shoes5">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-tuixach" role="tabpanel" aria-labelledby="pills-tuixach-tab" tabindex="0">
+                <div class="content">
+                  <div class="row items">
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/handbags/handbag1_show.jpg" alt="" class="img-fluid">
+                        <p>Handbag 1</p>
+                        <button class="btn btn-primary btn-thu-do TUIXACH" id="handbag1">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/handbags/handbag2_show.jpg" alt="" class="img-fluid">
+                        <p>Handbag 2</p>
+                        <button class="btn btn-primary btn-thu-do TUIXACH" id="handbag2">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/handbags/handbag3_show.jpg" alt="" class="img-fluid">
+                        <p>Handbag 3</p>
+                        <button class="btn btn-primary btn-thu-do TUIXACH" id="handbag3">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-daychuyen" role="tabpanel" aria-labelledby="pills-daychuyen-tab" tabindex="0">
+                <div class="content">
+                  <div class="row items">
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/necklaces/necklace1_show.jpg" alt="" class="img-fluid">
+                        <p>Necklaces 1</p>
+                        <button class="btn btn-primary btn-thu-do DAYCHUYEN" id="necklace1">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/necklaces/necklace2_show.jpg" alt="" class="img-fluid">
+                        <p>Necklaces 2</p>
+                        <button class="btn btn-primary btn-thu-do DAYCHUYEN" id="necklace2">Thử đồ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/necklaces/necklace3_show.jpg" alt="" class="img-fluid">
+                        <p>Necklaces 3</p>
+                        <button class="btn btn-primary btn-thu-do DAYCHUYEN" id="necklace3">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-kieutoc" role="tabpanel" aria-labelledby="pills-kieutoc-tab" tabindex="0">
+                <div class="content">
+                  <div class="row items">
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/hairstyle/hairstyle1_show.jpg" alt="" class="img-fluid">
+                        <p>Hairstyles 1</p>
+                        <button class="btn btn-primary btn-thu-do mt-2 KIEUTOC" id="hairstyle1">Thử kiểu tóc</button>
+                        <button class="btn btn-primary btn-thu-do mt-2 KIEUTOC" id="huykieutoc">Huỷ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/hairstyle/hairstyle2_show.jpg" alt="" class="img-fluid">
+                        <p>Hairstyles 2</p>
+                        <button class="btn btn-primary btn-thu-do mt-2 KIEUTOC" id="hairstyle2">Thử kiểu tóc</button>
+                        <button class="btn btn-primary btn-thu-do mt-2 KIEUTOC" id="huykieutoc">Huỷ</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/hairstyle/hairstyle3_show.jpg" alt="" class="img-fluid">
+                        <p>Hairstyles 3</p>
+                        <button class="btn btn-primary btn-thu-do mt-2 KIEUTOC" id="hairstyle3">Thử kiểu tóc</button>
+                        <button class="btn btn-primary btn-thu-do mt-2 KIEUTOC" id="huykieutoc">Huỷ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-nen" role="tabpanel" aria-labelledby="pills-nen-tab" tabindex="0">
+                <div class="content">
+                  <div class="row items">
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/background/background1_show.jpg" alt="" class="img-fluid img-background">
+                        <p>Background 1</p>
+                        <button class="btn btn-primary btn-thu-do NEN" id="background1">Thay đổi nền</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/background/background2_show.jpg" alt="" class="img-fluid img-background">
+                        <p>Background 2</p>
+                        <button class="btn btn-primary btn-thu-do NEN" id="background2">Thay đổi nền</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/background/background3_show.jpg" alt="" class="img-fluid img-background">
+                        <p>Background 3</p>
+                        <button class="btn btn-primary btn-thu-do NEN" id="background3">Thay đổi nền</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/background/background4_show.jpg" alt="" class="img-fluid img-background">
+                        <p>Background 4</p>
+                        <button class="btn btn-primary btn-thu-do NEN" id="background4">Thay đổi nền</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/background/background5_show.jpg" alt="" class="img-fluid img-background">
+                        <p>Background 5</p>
+                        <button class="btn btn-primary btn-thu-do NEN" id="background5">Thay đổi nền</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/background/background6_show.jpg" alt="" class="img-fluid img-background">
+                        <p>Background 6</p>
+                        <button class="btn btn-primary btn-thu-do NEN" id="background6">Thay đổi nền</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                      <div class="products">
+                        <img src="./../assets/images/background/background7_show.jpg" alt="" class="img-fluid img-background">
+                        <p>Background 7</p>
+                        <button class="btn btn-primary btn-thu-do NEN" id="background7">Thay đổi nền</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contain">
+            <div class="body"></div>
+            <div class="model"></div>
+            <div class="hairstyle"></div>
+            <div class="necklace"></div>
+            <div class="bikinitop"></div>
+            <div class="bikinibottom"></div>
+            <div class="handbag"></div>
+            <div class="feet"></div>
+            <div class="background"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js" integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./../controllers/main.js"></script>
+  </body>
+</html>
